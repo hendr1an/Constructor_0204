@@ -17,3 +17,12 @@ public:
         setID();
     }
 };
+
+ int mahasiswa::nim = 204;
+
+ void mahasiswa::setID()
+ {
+    id = ++nim;
+ }
+
+ 
