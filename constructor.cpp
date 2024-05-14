@@ -20,7 +20,7 @@ public:
         nim = iNim;
     
     };
-    
+
     Mahasiswa(int iNim, string iNama)
     {
         nim = iNim;
@@ -35,15 +35,13 @@ public:
 };
 
 
-
-
-
 int main()
+
 {
     Mahasiswa mhs1;
     Mahasiswa mhs2(20);
-    Mahasiswa mhs3("Indra");
-    Mahasiswa mhs4(30, "Fauzan");
+    Mahasiswa mhs3("Gyan");
+    Mahasiswa mhs4(30, "Handsome");
 
     mhs1.cetak();
     mhs2.cetak();
